@@ -27,6 +27,7 @@ def main():
         else:
             st.error("Please enter a destination.")
     st.write("")  # You can also use st.empty() or st.markdown("")
+    st.write("")  # You can also use st.empty() or st.markdown("")
 
 if __name__ == "__main__":
     main()
