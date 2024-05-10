@@ -26,6 +26,7 @@ def main():
             st.success("Finding options for {} from {} to {} for {} persons.".format(destination, arrival_date.strftime("%Y-%m-%d"), departure_date.strftime("%Y-%m-%d"), num_persons))
         else:
             st.error("Please enter a destination.")
+    st.write("")  # You can also use st.empty() or st.markdown("")
 
 if __name__ == "__main__":
     main()
